@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@100&family=The+Nautigal&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    background-color: rgb(255, 244, 223);
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 14px;
+    background-color: rgb(65, 62, 60);
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+#par-pupin{
+   margin: 8px;
+   padding-top: 0px;
+   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   
+}
+#pupin-img{
+    float:left;
+    letter-spacing: 8px;
+    margin:4px;
+    padding: 7px;
+    border: 4px solid rgb(65, 62, 60);
+    
+}
+h1{
+    font-size: 44px;
+    text-align:center;
+}
+#section-body{
+   box-sizing: border-box;
+   margin: 23px;
+   padding: 12px;
+
+}
+#body-body{
+    display:inline-block;
+}
+#par-body{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#img-body{
+    text-align: center;
+    margin: 15px;
+    padding: 14px;
+   
+}
+#body-part-two{
+    background: url("./pics/pupin-1916.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+#par-body-two{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin:12px;
+    padding: 12px;
+} 
+/* Nisam uspeo da iskoristim index-z()
+.opacity-body{
+    height:100vh;
+    width: 100%;
+    background: black;
+    position: absolute;
+    opacity: 0.5;
+}
+*/
+.paragraf{
+    color: white;
+}   
+.par-object{
+    display: block;
+    padding-top: 30px;
+    margin-left: 16px;
+}
+#pup-coils{
+    margin: 10px;
+    padding: 14px;
+}
+.body-part-two-class{
+    margin:12px;
+    padding: 13px;
+}
+.pup-coils-class{
+    padding:18px;
+    color:white;
+}
+#h3{
+    margin:15px;
+    padding: 14px;
+}
+#footer{
+    box-sizing: border-box;
+    margin: 23px;
+    padding:12px;
+}
+#par-footer{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 11px;
+    padding: 11px;
+}
+#h4{
+    font-family: bold;
+    font-size: 16px;
+}
+/* table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+  th {
+    padding: 18px;
+  }
+  td {
+    padding: 12px;
+  }
+  th,
+  td {
+    border: solid 1px #e6e6e6;
+  }
+  tr {
+    background-color: #EDEDED;
+  }
+  tr.one {
+    background-color: #F7F7F7;
+  }
+  #heading {
+    background-color: #02AD8B;
+    color: white;
+  }
+.footer{
+    background-color: rgb(65, 62, 60);
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    margin:11px;
+    padding:20px;
+}
+#table{
+    margin:12px;
+    padding:11px;
+}
